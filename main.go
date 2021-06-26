@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/MUFYAheer/learn-go-with-tests/integers"
 )
 
 const (
@@ -37,4 +39,5 @@ func greetingPrefix(language string) (prefix string) {
 
 func main() {
 	fmt.Println(Hello("World", ""))
+	fmt.Println(integers.Add(2, 3))
 }
