@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/MUFYAheer/learn-go-with-tests/integers"
+	"github.com/MUFYAheer/learn-go-with-tests/iteration"
 )
 
 const (
@@ -39,5 +40,6 @@ func greetingPrefix(language string) (prefix string) {
 
 func main() {
 	fmt.Println(Hello("World", ""))
-	fmt.Println(integers.Add(2, 3))
+	fmt.Println("2 + 3 =", integers.Add(2, 3))
+	fmt.Println("Repeat `b` 5 times:", iteration.Repeat("b", 5))
 }
